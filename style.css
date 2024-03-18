@@ -1,0 +1,136 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+       
+ }
+
+/* Style Navigation */
+nav {
+  background-color: #444;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+   font-family: "Roboto", sans-serif; 
+   font-weight: 500;
+   font-style: normal;
+   padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+  
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* Style Content Section */
+.content {
+  padding: 20px;
+  min-height: calc(100vh - 160px);
+  display: flex;
+  flex-direction: column;
+}
+
+.content h2{
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: "Roboto", sans-serif; 
+  font-weight: 700;
+  font-style: normal;
+}
+
+.separator{
+    margin-top: 20px;
+    border-top:1px solid ;
+    }
+
+.property-listing {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.property {
+    max-width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.property img {
+    width: 100%;
+    border-radius: 8px;
+    
+}
+
+.name{
+    display: flex;
+    margin-top: 10px;
+}
+
+.price {
+    color:#12d32e;
+    font-weight: bold;
+}
+
+.location {
+    color: #777;
+}
+
+.button:hover{
+    background-color: #3498db;
+    
+}
+
+.button {
+    display: block;
+    margin-top: 10px;
+    padding: 8px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+
+.header-p{
+    text-align: center;
+}
+
+.content h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+   /* Style Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
